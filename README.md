@@ -1,4 +1,4 @@
-# SwiftAbstactLogger
+# SwiftAbstactLogger [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pryomoax/SwiftAbstractLogger/blob/master/LICENSE) [![GitHub release](https://img.shields.io/badge/version-v0.1.0-brightgreen.svg)](https://github.com/pryomoax/SwiftAbstractLogger/releases) ![Github stable](https://img.shields.io/badge/stable-false-red.svg)
 
 Abstract, context-free logger for Swift packages. Permitting packages to implement logging without relying on a particular logging package, but leaving this to the consumer application.
 
@@ -6,19 +6,20 @@ Abstract, context-free logger for Swift packages. Permitting packages to impleme
 
 ## Installation
 
-### Using [Swift Package Manager](https://swift.org/package-manager/)
-
-### Using [Carthage](https://github.com/Carthage/Carthage)
-
-*AbstractLogger* is available through Carthage. To install it, simply add the following line to your `Cartfile`:
+### Using Swift Package Manager
+AbstractLogger is available through [Swift Package Manager](https://swift.org/package-manager/). To install it, simply add the following line to your `Package.swift` dependencies:
 
 ```
-github "pryomoax/SwiftAbstractLogger"
+.Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 1)
 ```
 
-### Using [CocoaPods](http://cocoapods.org)
+### Using Carthage
 
-*AbstractLogger* is currently not supported by CocoaPods
+AbstractLogger is currently not supported by Carthage (coming soon)
+
+### Using CocoaPods
+
+AbstractLogger is currently not supported by CocoaPods (coming soon)
 
 
 # Usage
