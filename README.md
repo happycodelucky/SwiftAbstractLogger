@@ -1,36 +1,42 @@
-# SwiftAbstactLogger [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pryomoax/SwiftAbstractLogger/blob/master/LICENSE) [![GitHub release](https://img.shields.io/badge/version-v0.1.0-brightgreen.svg)](https://github.com/pryomoax/SwiftAbstractLogger/releases) ![Github stable](https://img.shields.io/badge/stable-false-red.svg)
+# SwiftAbstactLogger [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pryomoax/SwiftAbstractLogger/blob/master/LICENSE) [![GitHub release](https://img.shields.io/badge/version-v0.2.0-brightgreen.svg)](https://github.com/pryomoax/SwiftAbstractLogger/releases) ![Github stable](https://img.shields.io/badge/stable-true-brightgreen.svg)
 
 Abstract, context-free logger for Swift packages. Permitting packages to implement logging without relying on a particular logging package, but leaving this to the consumer application.
 
 # Package Management
 
 ## Installation
+[![GitHub spm](https://img.shields.io/badge/spm-supported-brightgreen.svg)](https://swift.org/package-manager/)
+[![GitHub carthage](https://img.shields.io/badge/carthage-supported-brightgreen.svg)](https://github.com/Carthage/Carthage)
 
 ### Using Swift Package Manager
-AbstractLogger is available through [Swift Package Manager](https://swift.org/package-manager/). To install it, simply add the following line to your `Package.swift` dependencies:
+SwiftAbstractLogger is available through [Swift Package Manager](https://swift.org/package-manager/). To install it, simply add the following line to your `Package.swift` dependencies:
 
 ```
 .Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 1)
 ```
 
 ### Using Carthage
+SwiftAbstractLogger is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your `Cartfile`:
 
-AbstractLogger is currently not supported by Carthage (coming soon)
+```
+# SwiftAbstractLogger
+github "pryomoax/SwiftAbstractLogger.git" ~> 0.2
+```
 
 ### Using CocoaPods
 
-AbstractLogger is currently not supported by CocoaPods (coming soon)
+SwiftAbstractLogger is currently not supported by CocoaPods (coming soon)
 
 
 # Usage
 
-Any package using the *AbstractLogger* package will not log anything unless an application attached a logger. More than one logger can be attached to `Logger` if there is a need to support multiple loggers, say one to the console and another to the persisted resource.
+Any package using the **SwiftAbstractLogger** package will not log anything unless an application attached a logger. More than one logger can be attached to `Logger` if there is a need to support multiple loggers, say one to the console and another to the persisted resource.
 
 ## Logging
 
 ### Attaching Loggers
 
-*AbstractLogger* contains a single default logger `BasicConsoleLogger` that can be attached.
+**SwiftAbstractLogger** contains a single default logger `BasicConsoleLogger` that can be attached.
 
 ```swift
 Logger.attach(BasicConsoleLogger.logger)
@@ -81,7 +87,7 @@ Outputs the following log statement
 
 ## Category Logging
 
-Changing the global logging level for all logs isn't desirable. With *AbstractLogger* being used by potentially multiple packages, changing the levels would output too many logs. 
+Changing the global logging level for all logs isn't desirable. With **SwiftAbstractLogger** being used by potentially multiple packages, changing the levels would output too many logs. 
 
 Category logging allows packages to scope logs and level to the package. Adding a `category` parameter to `log` or any level specialization, like `logDebug`. Scoping with categories permit log levels for that category to be configured independently.
 
@@ -122,6 +128,9 @@ All logging will be dispatched to the `main` dispatch queue. Any logger wanting 
 
 * Xcode 8
 * iOS 10.0+
+* tvOS 10.0+
+* watchOS 3.0+
+* macOS 10.12+
 
 ## Author
 
