@@ -22,10 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAbstractLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8F9CBD1E79001500EC88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8F9CCE1E79033F00EC88A2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3C8F9CCF1E79033F00EC88A2 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -79,10 +79,10 @@
 		3C8F9C8C1E78FE8800EC88A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger_iOS.framework */,
-				3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger_watchOS.framework */,
-				3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger_tvOS.framework */,
-				3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger_macOS.framework */,
+				3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger.framework */,
+				3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger.framework */,
+				3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger.framework */,
+				3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C8F9C8A1E78FE8800EC88A2 /* SwiftAbstractLogger-iOS */ = {
+		3C8F9C8A1E78FE8800EC88A2 /* SwiftAbstractLogger iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C8F9C911E78FE8800EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-iOS" */;
+			buildConfigurationList = 3C8F9C911E78FE8800EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger iOS" */;
 			buildPhases = (
 				3C8F9C861E78FE8800EC88A2 /* Sources */,
 				3C8F9C871E78FE8800EC88A2 /* Frameworks */,
@@ -161,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftAbstractLogger-iOS";
+			name = "SwiftAbstractLogger iOS";
 			productName = SwiftAbstractLoggeriOS;
-			productReference = 3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger_iOS.framework */;
+			productReference = 3C8F9C8B1E78FE8800EC88A2 /* SwiftAbstractLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3C8F9C981E78FE9A00EC88A2 /* SwiftAbstractLogger-watchOS */ = {
+		3C8F9C981E78FE9A00EC88A2 /* SwiftAbstractLogger watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C8F9C9E1E78FE9A00EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-watchOS" */;
+			buildConfigurationList = 3C8F9C9E1E78FE9A00EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger watchOS" */;
 			buildPhases = (
 				3C8F9C941E78FE9A00EC88A2 /* Sources */,
 				3C8F9C951E78FE9A00EC88A2 /* Frameworks */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftAbstractLogger-watchOS";
+			name = "SwiftAbstractLogger watchOS";
 			productName = SwiftAbstractLoggerwatchOS;
-			productReference = 3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger_watchOS.framework */;
+			productReference = 3C8F9C991E78FE9A00EC88A2 /* SwiftAbstractLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3C8F9CA51E78FEB400EC88A2 /* SwiftAbstractLogger-tvOS */ = {
+		3C8F9CA51E78FEB400EC88A2 /* SwiftAbstractLogger tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C8F9CAB1E78FEB400EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-tvOS" */;
+			buildConfigurationList = 3C8F9CAB1E78FEB400EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger tvOS" */;
 			buildPhases = (
 				3C8F9CA11E78FEB400EC88A2 /* Sources */,
 				3C8F9CA21E78FEB400EC88A2 /* Frameworks */,
@@ -197,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftAbstractLogger-tvOS";
+			name = "SwiftAbstractLogger tvOS";
 			productName = SwiftAbstractLoggertvOS;
-			productReference = 3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger_tvOS.framework */;
+			productReference = 3C8F9CA61E78FEB400EC88A2 /* SwiftAbstractLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3C8F9CB21E78FEC000EC88A2 /* SwiftAbstractLogger-macOS */ = {
+		3C8F9CB21E78FEC000EC88A2 /* SwiftAbstractLogger macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C8F9CB81E78FEC000EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-macOS" */;
+			buildConfigurationList = 3C8F9CB81E78FEC000EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger macOS" */;
 			buildPhases = (
 				3C8F9CAE1E78FEC000EC88A2 /* Sources */,
 				3C8F9CAF1E78FEC000EC88A2 /* Frameworks */,
@@ -215,9 +215,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftAbstractLogger-macOS";
+			name = "SwiftAbstractLogger macOS";
 			productName = SwiftAbstractLoggermacOS;
-			productReference = 3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger_macOS.framework */;
+			productReference = 3C8F9CB31E78FEC000EC88A2 /* SwiftAbstractLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,10 +262,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C8F9C8A1E78FE8800EC88A2 /* SwiftAbstractLogger-iOS */,
-				3C8F9C981E78FE9A00EC88A2 /* SwiftAbstractLogger-watchOS */,
-				3C8F9CA51E78FEB400EC88A2 /* SwiftAbstractLogger-tvOS */,
-				3C8F9CB21E78FEC000EC88A2 /* SwiftAbstractLogger-macOS */,
+				3C8F9C8A1E78FE8800EC88A2 /* SwiftAbstractLogger iOS */,
+				3C8F9C981E78FE9A00EC88A2 /* SwiftAbstractLogger watchOS */,
+				3C8F9CA51E78FEB400EC88A2 /* SwiftAbstractLogger tvOS */,
+				3C8F9CB21E78FEC000EC88A2 /* SwiftAbstractLogger macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulbates.${TARGET_NAME}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftAbstractLogger;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -364,7 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulbates.${TARGET_NAME}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftAbstractLogger;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -420,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -475,6 +476,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -536,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -591,6 +594,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -652,6 +656,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -706,6 +711,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -770,6 +776,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -825,6 +832,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbates.SwiftAbstractLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -846,37 +854,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C8F9C911E78FE8800EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-iOS" */ = {
+		3C8F9C911E78FE8800EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C8F9C921E78FE8800EC88A2 /* Debug */,
 				3C8F9C931E78FE8800EC88A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3C8F9C9E1E78FE9A00EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-watchOS" */ = {
+		3C8F9C9E1E78FE9A00EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C8F9C9F1E78FE9A00EC88A2 /* Debug */,
 				3C8F9CA01E78FE9A00EC88A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3C8F9CAB1E78FEB400EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-tvOS" */ = {
+		3C8F9CAB1E78FEB400EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C8F9CAC1E78FEB400EC88A2 /* Debug */,
 				3C8F9CAD1E78FEB400EC88A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3C8F9CB81E78FEC000EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger-macOS" */ = {
+		3C8F9CB81E78FEC000EC88A2 /* Build configuration list for PBXNativeTarget "SwiftAbstractLogger macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C8F9CB91E78FEC000EC88A2 /* Debug */,
 				3C8F9CBA1E78FEC000EC88A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

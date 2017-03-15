@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C8F9C981E78FE9A00EC88A2"
-               BuildableName = "SwiftAbstractLogger_watchOS.framework"
-               BlueprintName = "SwiftAbstractLogger-watchOS"
+               BlueprintIdentifier = "3C8F9CB21E78FEC000EC88A2"
+               BuildableName = "SwiftAbstractLogger.framework"
+               BlueprintName = "SwiftAbstractLogger macOS"
                ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C8F9C981E78FE9A00EC88A2"
-            BuildableName = "SwiftAbstractLogger_watchOS.framework"
-            BlueprintName = "SwiftAbstractLogger-watchOS"
+            BlueprintIdentifier = "3C8F9CB21E78FEC000EC88A2"
+            BuildableName = "SwiftAbstractLogger.framework"
+            BlueprintName = "SwiftAbstractLogger macOS"
             ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C8F9C981E78FE9A00EC88A2"
-            BuildableName = "SwiftAbstractLogger_watchOS.framework"
-            BlueprintName = "SwiftAbstractLogger-watchOS"
+            BlueprintIdentifier = "3C8F9CB21E78FEC000EC88A2"
+            BuildableName = "SwiftAbstractLogger.framework"
+            BlueprintName = "SwiftAbstractLogger macOS"
             ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

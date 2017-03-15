@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3C8F9CA51E78FEB400EC88A2"
-               BuildableName = "SwiftAbstractLogger_tvOS.framework"
-               BlueprintName = "SwiftAbstractLogger-tvOS"
+               BuildableName = "SwiftAbstractLogger.framework"
+               BlueprintName = "SwiftAbstractLogger tvOS"
                ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C8F9CA51E78FEB400EC88A2"
-            BuildableName = "SwiftAbstractLogger_tvOS.framework"
-            BlueprintName = "SwiftAbstractLogger-tvOS"
+            BuildableName = "SwiftAbstractLogger.framework"
+            BlueprintName = "SwiftAbstractLogger tvOS"
             ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C8F9CA51E78FEB400EC88A2"
-            BuildableName = "SwiftAbstractLogger_tvOS.framework"
-            BlueprintName = "SwiftAbstractLogger-tvOS"
+            BuildableName = "SwiftAbstractLogger.framework"
+            BlueprintName = "SwiftAbstractLogger tvOS"
             ReferencedContainer = "container:SwiftAbstractLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
