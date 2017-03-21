@@ -12,7 +12,7 @@ Abstract, context-free logger for Swift packages. Permitting packages to impleme
 SwiftAbstractLogger is available through [Swift Package Manager](https://swift.org/package-manager/). To install it, simply add the following line to your `Package.swift` dependencies:
 
 ```
-.Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 1)
+.Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 2)
 ```
 
 ### Using Carthage
