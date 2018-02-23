@@ -1,4 +1,4 @@
-# SwiftAbstactLogger [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pryomoax/SwiftAbstractLogger/blob/master/LICENSE) [![GitHub release](https://img.shields.io/badge/version-v0.2.0-brightgreen.svg)](https://github.com/pryomoax/SwiftAbstractLogger/releases) ![Github stable](https://img.shields.io/badge/stable-true-brightgreen.svg)
+# SwiftAbstactLogger [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pryomoax/SwiftAbstractLogger/blob/master/LICENSE) [![GitHub release](https://img.shields.io/badge/version-v0.3.0-brightgreen.svg)](https://github.com/pryomoax/SwiftAbstractLogger/releases) ![Github stable](https://img.shields.io/badge/stable-true-brightgreen.svg)
 
 Abstract, context-free logger for Swift packages. Permitting packages to implement logging without relying on a particular logging package, but leaving this to the consumer application.
 
@@ -12,7 +12,7 @@ Abstract, context-free logger for Swift packages. Permitting packages to impleme
 SwiftAbstractLogger is available through [Swift Package Manager](https://swift.org/package-manager/). To install it, simply add the following line to your `Package.swift` dependencies:
 
 ```
-.Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 2)
+.Package(url: "https://github.com/pryomoax/SwiftAbstractLogger.git", majorVersion: 0, minor: 3)
 ```
 
 ### Using Carthage
@@ -20,7 +20,7 @@ SwiftAbstractLogger is available through [Carthage](https://github.com/Carthage/
 
 ```
 # SwiftAbstractLogger
-github "pryomoax/SwiftAbstractLogger.git" ~> 0.2
+github "pryomoax/SwiftAbstractLogger.git" ~> 0.3
 ```
 
 ### Using CocoaPods
